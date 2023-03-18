@@ -13,7 +13,7 @@ header {
 }
 
 header > h1 {
-   color: orangered;
+   color: #4AF0EB;
    font-family: 'Shantell Sans', cursive;
    font-weight: 700;
    font-size: 1.7em;
@@ -34,6 +34,6 @@ header > button {
 
 .barra {
    height: 3px;
-   background-image: linear-gradient(to right, orangered, black);
+   background-image: linear-gradient(to right, #4AF0EB, black);
    
 }

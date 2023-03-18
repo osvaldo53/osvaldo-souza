@@ -1,10 +1,11 @@
 import Header from "./components/Header";
+import Intro from "./pages/Intro";
 
 function App() {
    return (
       <div className="App">
          <Header/>
-         <h1>Página em construção...</h1>
+         <Intro/>
       </div>
   );
 }
