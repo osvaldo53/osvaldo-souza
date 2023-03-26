@@ -1,6 +1,35 @@
 
+@font-face {
+   font-family: 'Cloister Black';
+   src: url('assets/fonts/CloisterBlack.ttf') format('truetype');
+   
+}
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
+
+div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 85vh; /* garantir que o body tenha altura total da tela */
+   
+   font-family: 'Cloister Black';
+   font-size: 100px;
+   
+ }
+
+h1 {
+   font-weight: 100;
+   font-size: 35px;
+}
+
+ p {
+   font-weight: 100;
+   font-size: 300px;
+   
+ }
